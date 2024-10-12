@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
+
+    lazy var mapView: MKMapView = {
+
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.green
     }
 
 
